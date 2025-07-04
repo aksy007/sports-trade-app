@@ -1,0 +1,89 @@
+.order-book-container {
+  width: 100%;
+}
+
+.order-book-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.order-book-header-text {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.order-book-header-text.right {
+  text-align: right;
+}
+
+.sell-orders-section {
+  margin-bottom: 12px;
+}
+
+.order-row {
+  position: relative;
+  height: 22px;
+  margin-bottom: 2px;
+}
+
+.order-fill-background {
+  position: absolute;
+  height: 22px;
+}
+
+.order-fill-background.sell {
+  background-color: rgba(169, 0, 33, 0.1);
+}
+
+.order-fill-background.buy {
+  background-color: rgba(5, 169, 0, 0.1);
+}
+
+.order-content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  padding: 3px 0;
+}
+
+.order-price,
+.order-shares {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.order-shares {
+  text-align: right;
+}
+
+.current-price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.current-price {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  color: black;
+}
+
+.spread-text {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  color: black;
+  text-align: right;
+}

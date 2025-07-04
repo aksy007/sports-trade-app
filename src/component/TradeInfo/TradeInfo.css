@@ -1,0 +1,10 @@
+.tradeInfo {
+  padding: 0 24px;
+}
+
+.tradeData {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  margin: 24px 0 0 0;
+}

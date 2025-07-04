@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 20px 24px;
+
+  div:last-child {
+    display: flex;
+    gap: 16px;
+  }
+}

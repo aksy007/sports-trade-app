@@ -1,0 +1,58 @@
+.teamHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teamHeader > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.teamIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.teamInfo {
+  margin: 4px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.priceInfo {
+  display: flex;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.teamInfo > span:first-child,
+.price > span:first-child {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.teamInfo > span:last-child,
+.price > span:last-child {
+  color: #8f8f8f;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.green {
+  color: #06a900 !important;
+}
+
+.red {
+  columns: red !important;
+}
